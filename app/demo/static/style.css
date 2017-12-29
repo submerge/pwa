@@ -1,0 +1,190 @@
+body{ background: #eee;}
+html,body, #container {
+    height: 100%;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    margin: 0 auto;
+    position: relative;
+    overflow:hidden;
+}
+.header {
+    width: 98%;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    line-height: 34px;
+    font-size: 20px;
+    padding-left: 2%;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    z-index: 3;
+    color: #17b3ec;
+}
+.header .left{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.header .clear-btn{
+    width: 22%;
+    height: 25px;
+    line-height: 24px;
+    border: 1px solid #17b3ec;
+    border-radius: .1rem;
+    text-align: center;
+    color: #17b3ec;
+    font-size: 12px;
+    margin: 7px 10px 0 0 ;
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    background: #666;
+    position: absolute;
+    bottom: 0;
+    left:0;   
+    z-index: 1 
+}
+.footer input {
+    width:calc(100% - 165px);           
+    height: 32px;
+    outline: none;
+    font-size: 14px;
+    text-indent: 10px;
+    position: absolute;
+    border-radius: 2px;
+    right: 90px;
+    top: 7px;
+    border: 1px solid #ccc;
+}
+.footer #btn {
+    display: inline-block;
+    width: 60px;
+    height: 33px;
+    background: #8BACF9;
+    color:#fff;
+    line-height: 33px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    border: 0;
+    border-radius: 4px;
+}
+.footer #btn:hover {
+    color: #fff;
+    background: #999;
+}
+#user_face_icon {
+    display: inline-block;
+    background: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 14px;
+    cursor: pointer;
+    overflow: hidden;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+.dialog-contaier {
+    width: 100%;
+    height: calc(100% - 90px);
+    font-size: 15px;
+    padding: 45px 0 50px 0;
+    overflow: auto;
+}
+.dialog-contaier p.des {
+    margin: 10px 0;
+    padding-left: 10px;
+    width: 92%;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.dialog-contaier p.des img {
+    float: right;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+}
+.dialog-contaier p.des span{
+    background: #8BACF9;
+    border-radius: 6px;
+    float: right;
+    margin: 0 10px 0 10px;
+    max-width: 220px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px #ccc;
+    color: #FFF;
+    padding: 7px;
+}
+.dialog-contaier p.des.left img{
+    float: left; 
+}
+.dialog-contaier p.des.left span{
+    float: left;
+    background: #FFF;
+    color: #000;
+}
+
+.dialog-contaier p.loading img.load-image{
+    width: 40px;
+    height: 23px;
+    margin: 0 auto;
+    display: block;
+}
+
+.dd-nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: block;
+    clear: both;
+    margin-bottom: 18px;
+}
+
+.dd-nav .nav-wrap {
+    width: 100%;
+    height: 100px;
+}
+.dd-nav .wrap {
+    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+}
+.dd-nav .item{
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+    font-size: 14px;
+    background: #D2DBE1;
+}
+
+.dd-nav .item img{
+    width: 100px;
+    height: 60px;
+    display: block;
+}
+.dd-nav .item .title{
+    padding: 3px 5px 0;
+    width: 90px;
+    height: 40px;
+    line-height: 17px;
+    color: #6D767D;
+    overflow: hidden;
+}
